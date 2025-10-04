@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.320986a7.css",
+    "main.js": "/static/js/main.57eb8a2d.js",
+    "static/media/poster3.png": "/static/media/poster3.d8be651c231578c89465.png",
+    "static/media/gadgets.png": "/static/media/gadgets.481e0b4a80d58feea8b0.png",
+    "static/media/poster4.png": "/static/media/poster4.a5b8ae5d2dce050effa5.png",
+    "static/media/cordino.png": "/static/media/cordino.17db66e0c72fd33a5d91.png",
+    "static/media/cover.png": "/static/media/cover.486b3bf4bde5750d6f08.png",
+    "static/media/image-5.png": "/static/media/image-5.4f9ae2fa4ce6446208f0.png",
+    "static/media/Pareti-LB2.jpg": "/static/media/Pareti-LB2.244cbca6bc504a01d311.jpg",
+    "static/media/DeNora_Infografica_H2-01.png": "/static/media/DeNora_Infografica_H2-01.f69ccf07ef8c5d937c17.png",
+    "static/media/poster1.jpg": "/static/media/poster1.21c1c0dbe9040d058a2c.jpg",
+    "static/media/De Nora Infografica Business v4_ENG.png": "/static/media/De Nora Infografica Business v4_ENG.024c0dbac0a5d2de454b.png",
+    "static/media/smartmockups_l5b1kocc.jpg": "/static/media/smartmockups_l5b1kocc.ee049aaecb0964713287.jpg",
+    "static/media/PenPal-logo-def-01.jpg": "/static/media/PenPal-logo-def-01.95ee8f44feac1268eb1a.jpg",
+    "static/media/image-5 copia.png": "/static/media/image-5 copia.9202732e2046b5f0cc5c.png",
+    "static/media/image-6.png": "/static/media/image-6.5af2372ab58503697bb8.png",
+    "static/media/image-3 copia 2.png": "/static/media/image-3 copia 2.c1d00446b4c34445a242.png",
+    "static/media/image-4 copia.png": "/static/media/image-4 copia.2d9e1d02905770aa6789.png",
+    "static/media/proposta logo-01-2.jpg": "/static/media/proposta logo-01-2.33c4b004dd9e9e04d7c6.jpg",
+    "static/media/e6689f83-43c1-4516-8b00-3c17e924f3af.jpg": "/static/media/e6689f83-43c1-4516-8b00-3c17e924f3af.d407ab52fb149d3a5097.jpg",
+    "static/media/MM-studio.jpg": "/static/media/MM-studio.9bcb9abce669c1248126.jpg",
+    "static/media/cubi-pouf.jpg": "/static/media/cubi-pouf.705d440aa1f694810700.jpg",
+    "static/media/image copia 2.png": "/static/media/image copia 2.63ee6a821c1676ddd266.png",
+    "static/media/image-2 copia.png": "/static/media/image-2 copia.ab5d2870d94cd1be4a31.png",
+    "static/media/image-2.png": "/static/media/image-2.448461997c41ca1d7323.png",
+    "static/media/image-4.png": "/static/media/image-4.fcd8970ee256bdc973fb.png",
+    "static/media/image-3.png": "/static/media/image-3.4cf72beaba44ea0c9f8c.png",
+    "static/media/image copia.png": "/static/media/image copia.c29dcf00557b8716ab3d.png",
+    "static/media/image-3 copia.png": "/static/media/image-3 copia.5fc9aaf97566c5475e9f.png",
+    "static/media/logo-stesso.png": "/static/media/logo-stesso.dda05bc567d9994fb197.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.320986a7.css",
+    "static/js/main.57eb8a2d.js"
+  ]
+}

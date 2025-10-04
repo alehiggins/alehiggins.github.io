@@ -24,8 +24,8 @@
 .nav_ac {
     padding: 5px 15px;
     margin: 0;
+    background: var(--bg-color);
     border: unset;
-    background: var(--primary-color);
     font-size: 1.25rem;
     font-family: Marcellus;
     color: var(--text-color-2);
@@ -159,12 +159,12 @@
     padding-top: 20vh;
     padding-bottom: 20vh;
     padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media (min-width: 992px) {
-    .menu__container {
-        margin-left: 33.3333%;
-    }
     .the_menu {
         padding-top: 10vh;
         padding-bottom: 10vh;
@@ -172,7 +172,7 @@
 }
 
 .the_menu .menu_item>a {
-    color: var(--text-color-2);
+    color: var(--text-color-3);
     line-height: 1;
     font-size: 2rem;
     display: inline-block;

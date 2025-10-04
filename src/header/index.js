@@ -18,10 +18,12 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
           <Link  className="navbar-brand nav_ac" to="/">
-            {logotext}
+            <img src={logotext} className="logo img-fluid" alt="logo"
+              style={
+                { width: '100px', height: 'auto' }
+              } />
           </Link>
           <div className="d-flex align-items-center">
-          <Themetoggle />
           <button className="menu__button  nav_ac" onClick={handleToggle}>
             {!isActive ? <VscClose /> : <VscGrabber />}
           </button>

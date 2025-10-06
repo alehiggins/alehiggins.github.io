@@ -50,6 +50,36 @@ const dataabout = {
     title: "A bit about my self",
     aboutme: "My name is Alexandra Higgins. I'm a Graphic Designer and marketing content specialist based in Richmond, Virginia. I create digital designs for clients ranging from individuals to small businesses. I help my clients by creating clean, modern designs that help them stand out from the crowd.",
 };
+
+const education = [{
+    school: "Degree in Industrial Product Design - University, Politecnico di Milano",
+    where: "Milan -Italy",
+    date: "2016-2019"
+},
+{
+    school: "Professional Certificate in Digital Marketing - Google Career Certificates",
+    where: "Online",
+    date: "2020"
+},
+{
+    school: "Masters in digital Strategy - University: Politecnico di Milano",
+    where: "Milan - Italy",
+    date: "2020 - 2021"
+},
+{
+    school: "Digital Video Editing Course (Premiere) - IED European Institute of Design",
+    where: "Online",
+    date: "2024"
+},
+{
+    school: "Web Design Without Code Using Elementor & WordPress - Domestika",
+    where: "Online",
+    date: "2025"
+},
+
+
+
+]
 const worktimeline = [{
         jobtitle: "Content Creator & Social Media Strategist - Hook S.R.L",
         where: "Milan, Italy",
@@ -298,4 +328,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    education,
 };

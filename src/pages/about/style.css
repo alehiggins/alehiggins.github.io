@@ -2,6 +2,32 @@
     margin-bottom: calc(3rem + 5.128vw)
 }
 
+.skills{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skills div{
+    align-items: center;
+    justify-self: center;
+    padding: 0px 20px;
+}
+
+.progress:hover {
+    filter: drop-shadow(1px 1px 10px rgb(0, 5, 97));
+}
+
+.progress::after {
+    filter: blur(10px)
+}
+
+img[alt*="AutoCad"], img[alt*="Microsft Office"] {
+  filter: invert(1)
+}
+
+
 .table td,
 .table th {
     color: var(--text-color);

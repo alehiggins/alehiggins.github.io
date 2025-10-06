@@ -59,25 +59,23 @@ export const About = () => {
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
-          <Col lg="7">
+          <div className="skills">
             {skills.map((data, i) => {
+              const Icon = data.icon;
               return (
                 <div key={i}>
                   <h3 className="progress-title">{data.name}</h3>
                   <div className="progress">
-                    <div
-                      className="progress-bar"
-                      style={{
-                        width: `${data.value}%`,
-                      }}
-                    >
-                      <div className="progress-value">{data.value}%</div>
-                    </div>
+                    {typeof Icon === "string" ? (
+                      <img src={Icon} className="img-icon" alt={data.name} style={{ width: "40px", height: "40px" }} />
+                    ) : (
+                      <Icon size={40} />  // tamaño uniforme
+                    )}
                   </div>
                 </div>
               );
             })}
-          </Col>
+          </div>
         </Row>
         <Row className="sec_sp">
           <Col lang="5">

@@ -79,7 +79,7 @@ code {
 }
 
 .cursor__dot div:last-child {
-    background-color: var(--text-color-3) !important;
+    background-color: #37c1d6 !important;
 }
 
 .cursor__dot div:first-child {

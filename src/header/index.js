@@ -21,7 +21,7 @@ const Headermain = () => {
           <Link  className="navbar-brand nav_ac" to="/">
             <img src={logotext} className="logo img-fluid" alt="logo"
               style={
-                { width: '100px', height: 'auto' }
+                { maxWidth: '170px', height: 'auto' }
               } />
           </Link>
           <div className="d-flex align-items-center">

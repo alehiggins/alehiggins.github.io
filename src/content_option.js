@@ -1,4 +1,5 @@
-import logo from "./assets/images/smartmockups_l5b1kocc.jpg"
+import bg1 from "./assets/images/bgimg1.jpg"
+import bg2 from "./assets/images/bgimg2.jpg"
 import logostesso from "./assets/images/logo-stesso.png"
 import gallery1 from "./assets/images/cordino.png"
 import gallery2 from "./assets/images/cover.png"
@@ -12,7 +13,7 @@ import gallery9 from "./assets/images/image copia.png"
 import gallery10 from "./assets/images/image-2 copia.png"
 import gallery11 from "./assets/images/image-2.png"
 import gallery12 from "./assets/images/image-3 copia 2.png"
-import gallery14 from "./assets/images/image-3.png"
+import gallery14 from "./assets/images/web1.png"
 import gallery15 from "./assets/images/image-4 copia.png"
 import gallery16 from "./assets/images/image-4.png"
 import gallery17 from "./assets/images/image-5 copia.png"
@@ -25,9 +26,16 @@ import gallery23 from "./assets/images/poster1.jpg"
 import gallery24 from "./assets/images/poster3.png"
 import gallery25 from "./assets/images/poster4.png"
 import gallery26 from "./assets/images/proposta logo-01-2.jpg"
-
-
-
+import gallery27 from "./assets/images/newimg(1).jpg"
+import gallery28 from "./assets/images/web2.png"
+import gallery29 from "./assets/images/web3.png"
+import gallery30 from "./assets/images/newimg(4).jpg"
+import gallery31 from "./assets/images/newimg(5).jpg"
+import gallery32 from "./assets/images/newimg(6).jpg"
+import gallery33 from "./assets/images/newimg(7).jpg"
+import gallery34 from "./assets/images/newimg(8).png"
+import gallery35 from "./assets/images/newimg(9).png"
+import gallery36 from "./assets/images/newimg(10).png"
 
 const logotext = logostesso;
 const meta = {
@@ -42,13 +50,18 @@ const introdata = {
         second: "Make it real",
         third: "Design to inspire",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: logo,
+    description: "My name is Alexandra Higgins. I'm a Graphic Designer and marketing content specialist based in Richmond, Virginia. I create digital designs for clients ranging from individuals to small businesses. I help my clients by creating clean, modern designs that help them stand out from the crowd.",
+    your_img_url: [bg1, bg2]
 };
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "My name is Alexandra Higgins. I'm a Graphic Designer and marketing content specialist based in Richmond, Virginia. I create digital designs for clients ranging from individuals to small businesses. I help my clients by creating clean, modern designs that help them stand out from the crowd.",
+    aboutme: `Creative and detail-oriented professional with a proven track record in designing impactful
+visual content and implementing successful communication strategies. Highly adaptable and
+results-driven, with strong problem-solving skills and the ability to perform under pressure.
+Trilingual Spanish, Italian, and English) with over 5 years of experience in digital marketing and
+graphic design. A collaborative team player with excellent interpersonal skills and a passion
+for building meaningful connections.`,
 };
 
 const education = [{
@@ -173,128 +186,178 @@ const services = [{
 
 const dataportfolio = [{
         img: gallery1,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "gadget"
     },
     {
         img: gallery2,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "gadget"
     },
     {
         img: gallery3,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "gadget"
     },
     {
         img: gallery4,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "other"
     },
     {
         img: gallery5,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "other"
     },
     {
         img: gallery6,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "gadget"
     },
 
     {
         img: gallery7,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "gadget"
     },
     {
         img: gallery8,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "brochure"
     },
     {
         img: gallery9,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "brochure"
     },
     {
         img: gallery10,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "brochure"
     },
     {
         img: gallery11,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "brochure"
     },
     {
         img: gallery12,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "social-media"
     },
-    // {
-    //     img: gallery14,
-    //     description: "The wisdom of life consists in the elimination of non-essentials.",
-    //     group: "social-media"
-    // },
+    {
+        img: gallery14,
+        
+        group: "website-design"
+    },
     {
         img: gallery15,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "brochure"
     },
     {
         img: gallery16,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "visual-content"
     },
     {
         img: gallery17,
-        description: "The wisdom of life consists in the elimination of non-essentials.",   
+           
         group: "visual-content"
     },
     {
         img: gallery18,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "gadget"
     },
     {
         img: gallery19,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        group: "social-media"
+        
+        group: "website-design"
     },
     {
         img: gallery20,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        group: "gadget"
+        
+        group: "logotipe"
     },
     {
         img: gallery21,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "visual-content"
     },
     {
         img: gallery22,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "logotipe"
     },
     {
         img: gallery23,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "visual-content"
     },
     {
         img: gallery24,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "visual-content"
     },
     {
         img: gallery25,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
         group: "visual-content"
     },  
     {
         img: gallery26,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        
+        group: "logotipe"
+    },  
+    {
+        img: gallery27,
+        
+        group: "visual-content"
+    },  
+    {
+        img: gallery28,
+        
+        group: "website-design"
+    },  
+    {
+        img: gallery29,
+        
+        group: "website-design"
+    },  
+    {
+        img: gallery30,
+        
+        group: "gadget"
+    },  
+    {
+        img: gallery31,
+        
+        group: "visual-content"
+    },  
+    {
+        img: gallery32,
+        
+        group: "visual-content"
+    },  
+    {
+        img: gallery33,
+        
+        group: "visual-content"
+    },  
+    {
+        img: gallery34,
+        
+        group: "logotipe"
+    },  
+    {
+        img: gallery35,
+        
+        group: "logotipe"
+    },  
+    {
+        img: gallery36,
+        
         group: "logotipe"
     }
 
@@ -306,16 +369,14 @@ const contactConfig = {
     description: "I'm available for freelance work. Connect with me via phone or email and let's talk.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_b79tdjq",
+    YOUR_TEMPLATE_ID: "template_svy3yni",
+    YOUR_USER_ID: "uKhW-e17BA_AaKEfr",
 };
 
 const socialprofils = {
     instagram: "https://www.instagram.com/guaramodesign/",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/alexandra-higgins-26560ba2/",
 };
 export {
     meta,

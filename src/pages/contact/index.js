@@ -19,13 +19,18 @@ export const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setFormdata({ loading: true });
+    // Use the functional update form to set loading and preserve other state
+    setFormdata(prevData => ({ ...prevData, loading: true }));
 
+    // *** THIS IS THE CRITICAL FIX: The keys must match the {{placeholders}} in your EmailJS template. ***
     const templateParams = {
-      from_name: formData.email,
-      user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
-      message: formData.message,
+      name: formData.name,       // Correctly maps to {{name}}
+      email: formData.email,     // Correctly maps to {{email}}
+      message: formData.message, // Correctly maps to {{message}}
+
+      // Adding values for other template variables shown in your image:
+      title: "Portfolio Contact Message", // Maps to {{title}} in the subject
+      time: new Date().toLocaleString(),     // Maps to {{time}} and provides a timestamp
     };
 
     emailjs
@@ -83,9 +88,8 @@ export const ContactUs = () => {
             <Alert
               //show={formData.show}
               variant={formData.variant}
-              className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
-              }`}
+              className={`rounded-0 co_alert ${formData.show ? "d-block" : "d-none"
+                }`}
               onClose={() => setFormdata({ show: false })}
               dismissible
             >

@@ -19,6 +19,7 @@ export const Portfolio = () => {
     "logotipe",
     "social-media",
     "visual-content",
+    "website-design",
     "gadget",
     "brochure",
     "other"
@@ -30,7 +31,6 @@ export const Portfolio = () => {
         <Helmet>
           <meta charSet="utf-8" />
           <title> Portfolio | {meta.title} </title>
-          <meta name="description" content={meta.description} />
         </Helmet>
 
         <Row className="mb-5 mt-3 pt-md-3">
@@ -48,11 +48,11 @@ export const Portfolio = () => {
               <div className="po_items_ho">
                 {grouped[groupName].map((data, i) => (
                   <div key={i} className="po_item">
-                    <img src={data.img} alt={data.description} />
-                    <div className="content">
+                    <img src={data.img} alt={data.group} />
+                    {/* <div className="content">
                       <p>{data.description}</p>
                       {data.link && <a href={data.link}>view project</a>}
-                    </div>
+                    </div> */}
                   </div>
                 ))}
               </div>

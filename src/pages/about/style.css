@@ -13,12 +13,31 @@
     align-items: center;
     justify-self: center;
     padding: 0px 20px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.progress svg{
+    height: 100px;
 }
 
 .progress:hover {
-    filter: drop-shadow(1px 1px 10px rgb(0, 5, 97));
+    animation: ligth-radius 2s linear infinite;
 }
 
+@keyframes ligth-radius {
+    0% {
+        filter: drop-shadow(1px 1px 10px rgba(21, 185, 160, 0.571));
+    }
+    50% {
+        filter: drop-shadow(1px 1px 20px rgba(0, 3, 97, 0.871));
+    }
+    100% {
+        filter: drop-shadow(1px 1px 10px rgba(21, 185, 160, 0.571));
+    }
+}
 .progress::after {
     filter: blur(10px)
 }

@@ -94,25 +94,25 @@ const education = [{
 
 ]
 const worktimeline = [{
-        jobtitle: "Content Creator & Social Media Strategist - Hook S.R.L",
-        where: "Milan, Italy",
-        date: "2021 - 2023",
-    },
-    {
-        jobtitle: "Graphic Designer And Social Media Specialist - Industrie De Nora",
-        where: "Milan, Italy",
-        date: "2023 - 2024",
-    },
-    {
-        jobtitle: "Graphic Designer & Marketing Specialist - Ampa Events",
-        where: "Henrico - Virginia, United States ",
-        date: "May 2024 - Nov 2024",
-    },
-        {
-        jobtitle: "Graphic Designer and Digital Marketing Specialist - Worthen Furniture",
-        where: "Henrico - Virginia, United States ",
-        date: "Nov 2024 - Current",
-    }
+    jobtitle: "Content Creator & Social Media Strategist - Hook S.R.L",
+    where: "Milan, Italy",
+    date: "2021 - 2023",
+},
+{
+    jobtitle: "Graphic Designer And Social Media Specialist - Industrie De Nora",
+    where: "Milan, Italy",
+    date: "2023 - 2024",
+},
+{
+    jobtitle: "Graphic Designer & Marketing Specialist - Ampa Events",
+    where: "Henrico - Virginia, United States ",
+    date: "May 2024 - Nov 2024",
+},
+{
+    jobtitle: "Graphic Designer and Digital Marketing Specialist - Worthen Furniture",
+    where: "Henrico - Virginia, United States ",
+    date: "Nov 2024 - Current",
+}
 ];
 import { SiAdobeindesign } from "react-icons/si";
 import { SiAdobeillustrator } from "react-icons/si";
@@ -129,237 +129,250 @@ import { SiAdobeacrobatreader } from "react-icons/si";
 
 
 const skills = [{
-        name: "Adobe InDesign",
-        icon: SiAdobeindesign,
-    },
-    {
-        name: "Adobe Illustrator",
-        icon: SiAdobeillustrator,
-    },
-    {
-        name: "Adobe Photoshop",
-        icon: SiAdobephotoshop,
-    },
-    {
-        name: "Adobe Premiere Pro",
-        icon: SiAdobepremierepro,
-    },
-    {
-        name: "AutoDesk",
-        icon: SiAutodesk,
-    },
-        {
-        name: "KeyShot",
-        icon: KeyShot,
-    },
-        {
-        name: "AutoCad",
-        icon: Autocad,
-    },
-        {
-        name: "Microsft Office",
-        icon: Office
-    },
-        {
-        name: "Elementor",
-        icon: FaElementor,
-    },
-        {
-        name: "Adobe Acrobat",
-        icon: SiAdobeacrobatreader,
-    },
+    name: "Adobe InDesign",
+    icon: SiAdobeindesign,
+},
+{
+    name: "Adobe Illustrator",
+    icon: SiAdobeillustrator,
+},
+{
+    name: "Adobe Photoshop",
+    icon: SiAdobephotoshop,
+},
+{
+    name: "Adobe Premiere Pro",
+    icon: SiAdobepremierepro,
+},
+{
+    name: "AutoDesk",
+    icon: SiAutodesk,
+},
+{
+    name: "KeyShot",
+    icon: KeyShot,
+},
+{
+    name: "AutoCad",
+    icon: Autocad,
+},
+{
+    name: "Microsft Office",
+    icon: Office
+},
+{
+    name: "Elementor",
+    icon: FaElementor,
+},
+{
+    name: "Adobe Acrobat",
+    icon: SiAdobeacrobatreader,
+},
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+const services = [
+  {
+    title: "Branding & Logo Design",
+    description: "I create a unique and memorable visual identity for your brand. From a powerful logo to a cohesive color palette that will set you apart from the competition."
+  },
+  {
+    title: "Web Portfolio",
+    description: "I design and develop a professional and elegant web portfolio for you to showcase your best work and attract the clients you're looking for."
+  },
+  {
+    title: "Website Design & Development",
+    description: "I build modern, fast, and optimized websites for all devices. I handle the visual design   to ensure your online presence is flawless."
+  },
+  {
+    title: "Brochure & Flyer Design",
+    description: "I design attractive brochures and flyers that communicate your message clearly and directly, perfect for events, promotions, or presenting your business."
+  },
+  {
+    title: "Social Media Marketing & Content",
+    description: "I create visual and strategic content for your social media to help you increase your reach, engage with your audience, and turn followers into customers."
+  },
+  {
+    title: "Graphic Content Creation",
+    description: "I produce all types of graphic content your brand needs: from banners and ads to infographics and posts to make you stand out in the digital world."
+  }
 ];
 
 const dataportfolio = [{
-        img: gallery1,
-        
-        group: "gadget"
-    },
-    {
-        img: gallery2,
-        
-        group: "gadget"
-    },
-    {
-        img: gallery3,
-        
-        group: "gadget"
-    },
-    {
-        img: gallery4,
-        
-        group: "other"
-    },
-    {
-        img: gallery5,
-        
-        group: "other"
-    },
-    {
-        img: gallery6,
-        
-        group: "gadget"
-    },
+    img: gallery1,
 
-    {
-        img: gallery7,
-        
-        group: "gadget"
-    },
-    {
-        img: gallery8,
-        
-        group: "brochure"
-    },
-    {
-        img: gallery9,
-        
-        group: "brochure"
-    },
-    {
-        img: gallery10,
-        
-        group: "brochure"
-    },
-    {
-        img: gallery11,
-        
-        group: "brochure"
-    },
-    {
-        img: gallery12,
-        
-        group: "social-media"
-    },
-    {
-        img: gallery14,
-        
-        group: "website-design"
-    },
-    {
-        img: gallery15,
-        
-        group: "brochure"
-    },
-    {
-        img: gallery16,
-        
-        group: "visual-content"
-    },
-    {
-        img: gallery17,
-           
-        group: "visual-content"
-    },
-    {
-        img: gallery18,
-        
-        group: "gadget"
-    },
-    {
-        img: gallery19,
-        
-        group: "website-design"
-    },
-    {
-        img: gallery20,
-        
-        group: "logotipe"
-    },
-    {
-        img: gallery21,
-        
-        group: "visual-content"
-    },
-    {
-        img: gallery22,
-        
-        group: "logotipe"
-    },
-    {
-        img: gallery23,
-        
-        group: "visual-content"
-    },
-    {
-        img: gallery24,
-        
-        group: "visual-content"
-    },
-    {
-        img: gallery25,
-        
-        group: "visual-content"
-    },  
-    {
-        img: gallery26,
-        
-        group: "logotipe"
-    },  
-    {
-        img: gallery27,
-        
-        group: "visual-content"
-    },  
-    {
-        img: gallery28,
-        
-        group: "website-design"
-    },  
-    {
-        img: gallery29,
-        
-        group: "website-design"
-    },  
-    {
-        img: gallery30,
-        
-        group: "gadget"
-    },  
-    {
-        img: gallery31,
-        
-        group: "visual-content"
-    },  
-    {
-        img: gallery32,
-        
-        group: "visual-content"
-    },  
-    {
-        img: gallery33,
-        
-        group: "visual-content"
-    },  
-    {
-        img: gallery34,
-        
-        group: "logotipe"
-    },  
-    {
-        img: gallery35,
-        
-        group: "logotipe"
-    },  
-    {
-        img: gallery36,
-        
-        group: "logotipe"
-    }
+    group: "gadget"
+},
+{
+    img: gallery2,
+
+    group: "gadget"
+},
+{
+    img: gallery3,
+
+    group: "gadget"
+},
+{
+    img: gallery4,
+
+    group: "other"
+},
+{
+    img: gallery5,
+
+    group: "other"
+},
+{
+    img: gallery6,
+
+    group: "gadget"
+},
+
+{
+    img: gallery7,
+
+    group: "gadget"
+},
+{
+    img: gallery8,
+
+    group: "brochure"
+},
+{
+    img: gallery9,
+
+    group: "brochure"
+},
+{
+    img: gallery10,
+
+    group: "brochure"
+},
+{
+    img: gallery11,
+
+    group: "brochure"
+},
+{
+    img: gallery12,
+
+    group: "social-media"
+},
+{
+    img: gallery14,
+
+    group: "website-design"
+},
+{
+    img: gallery15,
+
+    group: "brochure"
+},
+{
+    img: gallery16,
+
+    group: "visual-content"
+},
+{
+    img: gallery17,
+
+    group: "visual-content"
+},
+{
+    img: gallery18,
+
+    group: "gadget"
+},
+{
+    img: gallery19,
+
+    group: "website-design"
+},
+{
+    img: gallery20,
+
+    group: "logotipe"
+},
+{
+    img: gallery21,
+
+    group: "visual-content"
+},
+{
+    img: gallery22,
+
+    group: "logotipe"
+},
+{
+    img: gallery23,
+
+    group: "visual-content"
+},
+{
+    img: gallery24,
+
+    group: "visual-content"
+},
+{
+    img: gallery25,
+
+    group: "visual-content"
+},
+{
+    img: gallery26,
+
+    group: "logotipe"
+},
+{
+    img: gallery27,
+
+    group: "visual-content"
+},
+{
+    img: gallery28,
+
+    group: "website-design"
+},
+{
+    img: gallery29,
+
+    group: "website-design"
+},
+{
+    img: gallery30,
+
+    group: "gadget"
+},
+{
+    img: gallery31,
+
+    group: "visual-content"
+},
+{
+    img: gallery32,
+
+    group: "visual-content"
+},
+{
+    img: gallery33,
+
+    group: "visual-content"
+},
+{
+    img: gallery34,
+
+    group: "logotipe"
+},
+{
+    img: gallery35,
+
+    group: "logotipe"
+},
+{
+    img: gallery36,
+
+    group: "logotipe"
+}
 
 ];
 
